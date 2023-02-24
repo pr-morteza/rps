@@ -11,7 +11,7 @@ export default function Score({score, org}){
             </Grid>
             <Box className='rounded text-center bg-light col-3'>
                 SCORE
-                <Typography variant="h2" color='GrayText' className='m-0 font'>{score}</Typography>
+                <Typography variant="h2" color='GrayText' className='m-0'>{score}</Typography>
             </Box>
         </Grid>
     </Col>
