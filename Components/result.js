@@ -9,7 +9,7 @@ export default function Result({me, host, result,onClick}){
             <Grid container justifyContent='space-between' alignItems='center' className=' text-center text-white '>
                 <Col md={4} xs={6} className="order-1">
                     <Grid item container  alignItems='center' direction={{sm:'column', xs:'column-reverse'}} >
-                        <Typography marginY={3} variant='h6' className='font'>
+                        <Typography marginY={3} variant='h6'>
                             YOU PICKED
                         </Typography>
                         <Paper elevation={10} className='d-flex justify-content-center align-items-center rounded-circle bg-light col-8' style={{aspectRatio : '1 / 1'}} >
@@ -19,10 +19,10 @@ export default function Result({me, host, result,onClick}){
                 </Col>
 
                 <Col md={3} xs={8} className="text-white mt-md-0 mt-5 mx-auto order-md-2 order-3">
-                    <Typography sx={{fontSize:'2.7rem',fontWeight:'700'}} className='font'>
+                    <Typography sx={{fontSize:'2.7rem',fontWeight:'700'}}>
                         {result}
                     </Typography> 
-                    <Button variant="light" onClick={onClick} className="col-12 font">
+                    <Button variant="light" onClick={onClick} className="col-12">
                         <h4 className="p-0 m-0 text-secondary">
                         PLAY AGAIN
                         </h4>
@@ -31,7 +31,7 @@ export default function Result({me, host, result,onClick}){
 
                 <Col md={4} xs={6} className="order-md-3 order-2">
                     <Grid item container alignItems='center' direction={{sm:'column', xs:'column-reverse'}} >
-                        <Typography variant='h6' marginY={3} className='font'>
+                        <Typography variant='h6' marginY={3}>
                             THE HOUSE PICKED
                         </Typography>
                         <Paper elevation={10} className='d-flex justify-content-center align-items-center rounded-circle bg-light col-8' style={{aspectRatio : '1 / 1'}} >
