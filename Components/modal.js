@@ -10,7 +10,7 @@ export default function RulesModal(props) {
         contentClassName='p-4'
       >
         <Modal.Header className='p-0 border-0' closeButton>
-          <Modal.Title as='h2' className='' id="contained-modal-title-vcenter">
+          <Modal.Title as='h2' id="contained-modal-title-vcenter">
             RULES
           </Modal.Title>
         </Modal.Header>
