@@ -53,10 +53,10 @@ export default function Home() {
         : <Result onClick={playAgain} me={me} host={host} result={state.result}/>}
       
         <Box className='clearfix align-self-stretch'>
-          <Button variant="outline-light" className='float-end' onClick={() => setModalShow(true)}>
+          <Button size='lg' variant="outline-light" className='float-end' onClick={() => setModalShow(true)}>
             RULES
           </Button>
-          <Button variant="outline-light" onClick={changeGameType} className='float-start'>
+          <Button size='lg' variant="outline-light" onClick={changeGameType} className='float-start'>
             {org ? 'GO TO BONUS' : 'GO TO ORIGINAL'}
           </Button>
         </Box>
